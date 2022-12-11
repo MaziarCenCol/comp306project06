@@ -1,0 +1,14 @@
+﻿@model ParkyWeb.Models.User
+
+<form method="post">
+    <div style="width: 40%; margin:auto; border: solid 1px gray; padding:15px; margin-top: 25px">
+    <h1>Register</h1>
+        <br />
+        <input asp-for="Username" class="form-control" type="text" placeholder="Username..." />
+        <br />
+        <input asp-for="Password" class="form-control" type="text" placeholder="Password..." />
+        <br />
+    <button type="submit" class="btn btn-success" value="Submit">Register</button>
+        <br />
+    </div>
+</form>
